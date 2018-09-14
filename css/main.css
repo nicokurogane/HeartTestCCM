@@ -1,0 +1,167 @@
+
+
+/* ---------------------------- header de pagina ----------------------------------------------*/
+.header-page{
+    background-color: #272661;
+    height: 96px;
+}
+
+
+.sub-header {
+  height: 78px;
+  background-color: #161640;
+  color: #ffffff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  text-align: center;
+}
+
+
+
+/*  --------------------------- css panel izquierdo -------------------------------------------*/
+
+.form-container{
+margin-top: 42px;    
+padding-left: 144px;
+    margin-right: 100px;
+    color: black;
+}
+
+.input-textfield{
+    text-align: center;
+    color: #818a91;
+}
+
+
+.form-question{
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;    
+}
+
+.btn-calcular {
+  width: 151px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #40bdae;
+  border: solid 1px #40bdae;
+  color: #ffffff;
+}
+
+
+
+	
+
+/*  --------------------------- css panel derecho-------------------------------------------*/
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > col
+.no-gutters > [class*="col-"]{
+    
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.imgrb{
+    max-width:100%;
+max-height:100%;
+}
+
+
+
+/* --------------------------- css div resultados -------------------------------------------*/
+.div-results{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    /*padding-left: 142px;*/
+    font-size: 24px;
+    background-color: #272661;
+    color: #ffffff;
+}
+
+.progress {
+  position: relative;
+  height: 30px; 
+    margin-bottom: 7px;
+}
+.progress-bar-title {
+  position: absolute;
+  text-align: center;
+  line-height: 35px; /* line-height should be equal to bar height */
+  overflow: hidden;
+  color: #fff;
+  background-color: #161640;;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 35px;    
+    
+}
+
+.progress-label {
+   font-size: 15px;
+}
+
+/*------------------------------- css div info--------------------------------------------*/
+.div-info{
+    padding: 34px;
+     background-color: #161640;
+}
+
+.label-info-title{
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+}
+
+.label-info-content{   
+  margin-top:15px; 
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fb-img{
+  width: 39px;
+  height: 39px;
+  object-fit: contain;
+}
+
+.globe-img{
+    margin-left: 10px;
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+}
+
+.phone-contact{
+    margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #40bdae;
+}
