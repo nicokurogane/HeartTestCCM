@@ -11,19 +11,19 @@
     
     function getUsuario()
     {
-        $username = "ccmphpuser";
+        $username = "ccmphp_local";
         return $username;
     };
     
     function getContrasena()
     {
-        $password = "ccmphpuser123";
+        $password = "ccmphp_local_pass";
         return $password;
     };
   
     function getBasedatos()
     {
-        $database = "ccm_cvdtest";
+        $database = "ccm_cvd_local";
         return $database;
     };
 
