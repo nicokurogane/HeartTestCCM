@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="cancel-button" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="cancel">
+        <path id="Path_34" d="M13 0a13 13 0 1 0 13 13A13.038 13.038 0 0 0 13 0zm6.5 17.68l-1.82 1.82L13 14.82 8.32 19.5 6.5 17.68 11.18 13 6.5 8.32 8.32 6.5 13 11.18l4.68-4.68 1.82 1.82L14.82 13z" class="cls-1" data-name="Path 34"/>
+    </g>
+</svg>

@@ -1,4 +1,5 @@
 
+
 /* ---------------------------- header de pagina ----------------------------------------------*/
 .header-page{
     background-color: #272661;
@@ -13,18 +14,40 @@
   padding-top: 26px;
   padding-bottom: 26px;
   text-align: center;
+  font-size: 22px;
+  font-family: 'Roboto';
+    font-family: 'Nunito', sans-serif;
 }
 
+.brand {
+    position: absolute;
+    left: 0px;
+    margin-left: 144px !important;  /* 50% of your logo width */
+    
+    bottom: 50%;
+    margin-bottom: -25px !important;
+    display: block;
 
+}
+
+/* ------------------------------ estilo de validaciones de jquery ---------------------------------------- */
+.error {
+    font-weight: 500;
+    color:#B40404;
+}
 
 /*  --------------------------- css panel izquierdo -------------------------------------------*/
 
+
 .form-container{
-margin-top: 42px;    
-padding-left: 144px;
-    margin-right: 100px;
-    color: black;
+   margin-left: 50px;
+   margin-right: 50px;  
 }
+
+.form-container .row{
+    margin-top: 25px;
+}
+
 
 .input-textfield{
     text-align: center;
@@ -37,87 +60,206 @@ padding-left: 144px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.19;
   letter-spacing: normal;
   text-align: left;
-  color: #373a3c;    
+  color: #40bdae;    
+}
+
+/*--------------------    ESPACIADORES PARA RADIO BUTTON   --------------------*/
+
+/*
+.radioParent .radio-container{
+  margin-right: 70px;     
+}*/
+
+.radioParent .radio-container label{
+    margin-left:6px;
+    
+}
+
+.radioParent div{
+    margin-right:60px;
+}
+
+/*---------------------------------------------------------------------*/
+.btn-pdf{
+     color: #40bdae;  
 }
 
 .btn-calcular {
-  width: 151px;
+  width: 217px;
+  height: 62px;
+  font-family: 'Nunito', sans-serif;    
+  border-radius: 4px;
+  background-color: #40bdae;
+  border: solid 1px #40bdae;
+  color: #ffffff;
+   
+}
+
+.btn-reset{
+  width: 145.7px;
   height: 40px;
+  padding-top: 8px;  
+  font-family: 'Nunito', sans-serif;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  color: #000000;    
+}
+
+.btn-reset:hover{
+ width: 145.7px;
+  height: 40px;
+  padding-top: 8px;  
+  font-family: 'Nunito', sans-serif;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #d13b45;
+  color: #ffffff;      
+}
+
+.btn-reset-test-form{
+    width: 217px;
+    height: 64px;
+    padding: 18px; 
+    
+ font-family: 'Nunito', sans-serif;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  color: #000000; 
+}
+
+.btn-reset-test-form:hover{
+    width: 217px;
+    height: 64px;
+    padding: 18px;
+      font-family: 'Nunito', sans-serif;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #d13b45;
+  color: #ffffff;  
+}
+
+ .btn-descargar{
+  width: 135px;
+  height: 40px;
+     padding-top: 8px; 
+  font-family: 'Nunito', sans-serif;
   border-radius: 4px;
   background-color: #40bdae;
   border: solid 1px #40bdae;
   color: #ffffff;
 }
 
-
-
-	
-
-/*  --------------------------- css panel derecho-------------------------------------------*/
-
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+.btn-calcular-container{
+    margin-top: 63px;
+    margin-bottom: 77px;
 }
 
-.no-gutters > col
-.no-gutters > [class*="col-"]{
-    
-    padding-right: 0;
-    padding-left: 0;
-}
-
-
-.imgrb{
-    max-width:100%;
-/*max-height:100%;*/
-}
-
-
-
-/* --------------------------- css div resultados -------------------------------------------*/
-.div-results{  
-    padding-bottom: 34px;
-    margin-left: 15px;
-    font-size: 24px;
-    background-color: #272661;
-    color: #ffffff;
-}
-
-.progress {
-  position: relative;
-  height: 30px; 
-    margin-bottom: 7px;
-}
-.progress-bar-title {
-  position: absolute;
-  text-align: center;
-  line-height: 35px; /* line-height should be equal to bar height */
-  overflow: hidden;
-  color: #fff;
-  background-color: #161640;;
-  right: 0;
-  left: 0;
-  top: 0;
-  height: 35px;    
-    
-}
-
-.progress-label {
-   font-size: 15px;
-}
 
 /*------------------------------- css div info--------------------------------------------*/
-.div-info{
-    padding: 34px;
-     background-color: #161640;
+.div-results{
+    color: #fff;
 }
 
+.risk-10-subtitle-spacing{
+    margin-top: 19px;
+    margin-bottom: 12px;    
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.patient-risk-spacing{
+    margin-right: 25px;
+    margin-left: 50px;
+}
+
+.div-results-title{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold; 
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+  /* border-bottom-style: solid;
+    border-bottom-color: #40bdae;
+    border-width: thin;*/
+     font-size: 20px;
+}
+
+.patient-result-number{
+    margin-left: 35px;
+    font-weight: bold; 
+    color: #40bdae;
+}
+
+.patient-risk-divisor{
+    margin-bottom: 12px;
+}
+
+
+
+/* ------------------------------- SECCION DE RANGO DE RIESGOS ---------------------------------*/
+
+.line-divisor {
+  width: 402px;
+  height: 0;
+  border: solid 0.5px #ffffff;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.risk-label-row{
+    margin-top: 27px;
+    margin-left: 35px;
+    font-size: 0.8rem;
+}
+
+.risk-label-text-span{
+    padding-top: 4px;
+}
+
+
+.risk-title{
+  height: 19px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #40bdae;  
+    margin-left: 50px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+.div-info{
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding: 34px;
+    background-color:  #161640;
+    
+}
+
+.div-info2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    color: #fff;
+    background-color:  #272661;
+}
+
+
 .label-info-title{
-  margin-left: 20px;
+  margin-left: 25px;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
@@ -128,16 +270,20 @@ padding-left: 144px;
 }
 
 .label-info-content{   
-  margin-top:15px; 
+  margin-top:15px;
+  width: 370px;    
   opacity: 0.5;
   font-size: 13px;
-  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.21;
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+}
+
+.info-container{
+    margin-left:144px;
 }
 
 .fb-img{
@@ -163,3 +309,200 @@ padding-left: 144px;
   letter-spacing: normal;
   color: #40bdae;
 }
+
+
+.patient-risk{ 
+    fill: #40bdae;
+    stroke-width:3;
+    stroke: #40bdae;
+}
+.patient-risk2{
+    fill: #68b9e5;
+    stroke-width:3;
+    stroke: #68b9e5;
+}
+.patient-risk3{
+    fill: #d13b45;
+    stroke-width:3;
+    stroke: #d13b45;
+}
+
+.patient-risk-spacing{
+    margin-right: 25px;
+    margin-left: 50px;
+}
+
+/* ---------------------------- ultima division fondo derecha------------------------------------*/
+.explanation-paragraph{
+  margin-left: 50px;
+  margin-bottom: 12px;
+  width: 370px;
+  height: 120px;
+  opacity: 0.5;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    
+}
+
+.btn-hacer-citas{
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif; 
+  width: 217px;
+  height: 40px;
+  opacity: 1;
+  border-radius: 4px;
+  background-color: #68b9e5;
+  font-weight: 800;   
+  color: #fff; 
+}
+
+.btn-recomendaciones{
+  margin-left: 50px;
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif; 
+  width: 217px;
+  height: 40px;
+  opacity: 1;
+  border-radius: 4px;
+  background-color: #68b9e5;
+  font-weight: 800;   
+  color: #fff;    
+}
+
+.btn-recomendaciones:disabled{
+      background-color: rgba(104, 185, 229, 0.57); 
+}
+
+.btn-cita-container{
+    margin-top: 15px;
+}
+
+.btn-sbp-tootlip{
+  margin-top: 11px;   
+    padding-bottom: 26px;
+    font-family: 'Nunito', sans-serif;
+  width: 119px;
+  height: 28px;
+  border-radius: 8px;
+  border-color:  #c0d5e2;
+  font-weight: 900;
+  color: #ffffff; 
+  background-color: #c0d5e2;
+}
+
+.btn-sbp-tootlip:hover{
+  background-color: #c0d5e2;  
+  border-color:  #c0d5e2;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------x*/
+@media (max-width: 767px) {
+     .row .second-col {
+      margin-top: 43px;
+    }    
+     #submitForm .row {
+      margin-top:43px;
+    }    
+    
+ .explanation-paragraph{
+  margin-left: 20px;
+  width: 320px;
+  height: 120px;
+  opacity: 0.5;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    
+}
+    
+    .info-container{
+        margin-left:50px;
+    }
+    
+    .brand {
+    position: absolute;
+    left: 45%;
+    margin-left: -72px !important;  /* 50% of your logo width */
+    
+    bottom: 50%;
+    margin-bottom: -25px !important;
+    display: block;
+   }
+    
+    
+    .label-info-content{   
+        width: 290px;    
+    }
+    
+    
+    .info-container{
+        margin-left:25px;
+    }
+    
+    .btn-hacer-citas{
+        margin-left:20px;
+    }
+    
+    .btn-recomendaciones{
+        margin-left:20px;    
+    }
+    
+    .risk-label-row{
+        margin-left: 10px;    
+        padding-left: 1px;
+       /* font-size: 0.75rem;*/
+    }
+    
+    .risk-title{
+        margin-left:20px;  
+    }
+    
+    .div-results-title{
+        margin-left:20px;  
+    }
+    
+    .risk-10-subtitle-spacing{
+         margin-left:20px;  
+    }
+    
+    .patient-risk-spacing{
+       margin-left:20px;   
+    }
+    
+    .patient-result-number{
+        margin-left:12px;
+    }
+    
+
+}
+
+@media (min-width: 992px) { 
+    .form-container{
+        margin-left: 160px;
+        margin-right: 160px;  
+    }
+    
+     #submitForm .row {
+      margin-top:60px;
+    }
+    
+  
+    
+
+}
+

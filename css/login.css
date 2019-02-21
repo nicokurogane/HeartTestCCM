@@ -1,0 +1,305 @@
+body{
+    background-color: #272661; 
+
+}
+
+
+/* Error jquery*/
+#form label.error {
+    color:#B40404;
+    margin-bottom: -5px;
+}
+
+
+
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -90.6px !important;  /* 50% of your logo width */
+    
+    bottom: 50%;
+    margin-bottom: -25px !important;
+    display: block;
+}
+
+.form-input-container{
+    margin-top: 43px;
+}
+
+.form-input-data{
+    background-color: #fff;
+    height: 400px;
+    width: 569.4px;
+    padding: 35px;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.login-img{
+    width: 400px;
+    height: 389px;      
+}
+
+
+.title-login {
+  width: 418px;
+  height: 85px;
+      font-family: 'Nunito', sans-serif;
+ /* font-family: 'Roboto' ;*/
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #40bdae;
+  /*  color: #484848;*/
+  margin-bottom: 10px;    
+}
+
+.subtitle-login
+{
+  width: 460.4px;
+  height: 70px;
+  font-family: 'Open Sans', sans-serif;;
+  font-size: 14px;
+  font-weight: regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: center;
+  color: #969696;
+     margin-bottom: 8px; 
+}
+
+/* ---------------------------- header de pagina ----------------------------------------------*/
+.header-page{
+    background-color: #272661;
+    height: 96px;
+}
+
+
+.sub-header {
+  height: 78px;
+  background-color: #161640;
+  color: #ffffff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  text-align: center;
+}
+
+
+
+/*  --------------------------- css panel izquierdo -------------------------------------------*/
+
+.form-container{
+margin-top: 42px;    
+padding-left: 144px;
+    margin-right: 100px;
+    color: black;
+}
+
+.input-textfield{
+    text-align: center;
+    color: #C3C3C3;
+ /*   color: #818a91;*/
+}
+
+::placeholder {
+    color: #818a91;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #818a91;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #818a91;
+   color: #818a91;
+}
+
+
+.form-question{
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;    
+}
+
+.btn-calcular {
+  width: 151px;
+  height: 40px; 
+    font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #40bdae;
+  border: solid 1px #40bdae;    
+  color: #ffffff;
+}
+
+
+
+	
+
+
+/* --------------------------- css div resultados -------------------------------------------*/
+.div-results{  
+    padding-bottom: 34px;
+    margin-left: 15px;
+    font-size: 24px;
+    background-color: #272661;
+    color: #ffffff;
+}
+
+.progress {
+  position: relative;
+  height: 30px; 
+    margin-bottom: 7px;
+}
+.progress-bar-title {
+  position: absolute;
+  text-align: center;
+  line-height: 35px; /* line-height should be equal to bar height */
+  overflow: hidden;
+  color: #fff;
+  background-color: #161640;;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 35px;    
+    
+}
+
+.progress-label {
+   font-size: 15px;
+}
+
+/*------------------------------- css div info--------------------------------------------*/
+.div-info{
+    padding-top: 34px;
+    padding-left: 34px;
+     padding-left: 200px;
+     background-color: #161640;
+    margin-top: 88px;
+}
+
+.label-info-title{
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+}
+
+.label-info-content{   
+  margin-top:15px; 
+    width: 370px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fb-img{
+  width: 39px;
+  height: 39px;
+  object-fit: contain;
+}
+
+.globe-img{
+    margin-left: 10px;
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+}
+
+.phone-contact{
+    margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #40bdae;
+}
+
+.info-container{
+        padding-bottom: 30px;
+        padding-left: 254px;
+}
+
+@media (max-width: 767px) {
+.form-input-data{
+    background-color: #fff;
+    height: 440px;
+    width: 310px;/*width: 398px;*/
+    padding: 25px;    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    
+.title-login {
+  width: 308px;
+  height: 65px;
+ /* font-family: 'Roboto';*/    
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+    color: #40bdae;
+  margin-bottom: 22px;    
+}
+    
+    .subtitle-login{
+        width: 260px;
+        padding-right: 25px;
+        margin-bottom: 70px;
+        text-align: center;
+    }    
+    
+    .subtitle-login-div{
+        padding: 0;
+    }
+    
+    .form-input-container{
+        margin-top: 43px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .info-container{
+        padding: 34px;
+    }
+    
+    .label-info-content{
+        width: 290px;
+    }
+    
+}
+

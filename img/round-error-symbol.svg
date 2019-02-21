@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="round-error-symbol" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="error">
+        <path id="Path_36" d="M13 0a13 13 0 1 0 13 13A13.038 13.038 0 0 0 13 0zm1.3 19.5h-2.6v-2.6h2.6zm0-5.2h-2.6V6.5h2.6z" class="cls-1" data-name="Path 36"/>
+    </g>
+</svg>

@@ -1,0 +1,193 @@
+body{
+    background-color: #272661; 
+}
+
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -90.6px !important;  /* 50% of your logo width */
+    
+    bottom: 50%;
+    margin-bottom: -25px !important;
+    display: block;
+}
+
+.margin-nav-bar{
+    margin-top: 10px;
+}
+
+
+.condition-label-title{
+  height: 27px;   
+  margin-bottom: 35px;    
+  /*font-family: 'Roboto';*/
+    font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #40bdae;
+  align-content: center;
+}
+
+.condition-box{
+   width:  553.8px;
+    margin-top: 37px;
+    margin-bottom:88px;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-content: center;
+}
+
+
+.checkbox-label{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+}
+
+.btn-accept-ccm{
+    font-family: 'Nunito', sans-serif;
+    background-color: #40bdae;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+/* ---------------------------- header de pagina ----------------------------------------------*/
+.header-page{
+    background-color: #272661;
+    height: 96px;
+}
+
+
+.sub-header {
+  height: 78px;
+  background-color: #161640;
+  color: #ffffff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  text-align: center;
+}
+
+
+.condition-card{
+      width: 553.8px;
+  height: 374px;
+  border-radius: 20px;
+}
+
+
+
+
+.btn-calcular {
+  width: 151px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #40bdae;
+  border: solid 1px #40bdae;
+  color: #ffffff;
+}
+
+
+.div-info{
+    padding-top: 34px;
+     background-color: #161640;
+}
+
+.label-info-title{
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+}
+
+.label-info-content{    
+    
+  margin-top:15px; 
+  width: 370px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.info-container{
+        padding-top: 23px;
+        padding-bottom: 30px;
+        padding-left: 214px;
+}
+
+.fb-img{
+  width: 39px;
+  height: 39px;
+  object-fit: contain;
+}
+
+.globe-img{
+    margin-left: 10px;
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+}
+
+.phone-contact{
+    margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #40bdae;
+}
+
+
+
+@media (max-width: 767px) {
+    .condition-box{
+    width:  310px; /*width:  389px;*/
+    margin-top: 37px;
+    margin-bottom:88px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .accept-btn-container{
+        margin-top: 8px;
+    }
+    
+    .checkbox-container{
+         text-align: center;
+    }
+    
+    .info-container{
+        padding-top: 10px;
+        padding-left: 34px;
+    }
+    
+    .label-info-content{
+        width: 290px;
+    }
+}
+
+

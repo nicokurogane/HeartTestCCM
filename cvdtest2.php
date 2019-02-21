@@ -1,5 +1,12 @@
 <?php
-    header('Content-Type: application/json');
+    
+       require_once $_SERVER['DOCUMENT_ROOT']."/ccmheart/ccm_infodb.php";
+
+    $host     = getServidor();
+    $user     = getUsuario();
+    $password = getContrasena();
+    $database = getBasedatos();
+
 
     /*
         ESTE SCRIPT ES EL QUE PROCESA LA INFORMACI'ON DEL USUARIO PARA QUE SE PUEDA MOSTRAR 
@@ -247,13 +254,35 @@
         $patientCalculatedOptimalRisk = round( ($patientCalculatedOptimalRisk*100) ,2);
         $patientCalculatedNormalRisk = round( ($patientCalculatedNormalRisk)*100, 2);
         
-                
-        //lo enviamos para autorefresh
+
+        
+        
         $patientResults = array('heartAge'       => $patientCalculatedHeartAge,
                                 'calculatedRisk' => $patientCalculatedRisk,
                                 'optimalRisk'    => $patientCalculatedOptimalRisk,
                                 'normalRisk'     => $patientCalculatedNormalRisk);
-        echo json_encode($patientResults);
-        
-        
+
+
+
+    $dblink = mysqli_connect($host, $user, $password, $database);
+       if(mysqli_connect_errno()) {
+        echo "No se pudo conectar con la base de datos: Error: ".mysqli_connect_error();
+        echo "<br/>";
+        exit();
+    }
+                
+
+    $updateSql = "UPDATE ccm_cvdtestanswer_data SET ccm_testanswerheartage = '".$patientCalculatedHeartAge."', 
+                                                    ccm_testanswerrisk = ".$patientCalculatedRisk.", 
+                                                    ccm_testansweroptimalrisk = ".$patientCalculatedOptimalRisk.",
+                                                    ccm_testanswernormailrisk = ". $patientCalculatedNormalRisk."
+                                                    WHERE ccm_answerid = ".$_POST["answerId"];
+
+   if(mysqli_query($dblink, $updateSql)){
+       echo "todo nice";
+   }else{
+       echo "error".mysqli_error($conn);
+   } 
+    mysqli_close($dblink);
+
    ?>
